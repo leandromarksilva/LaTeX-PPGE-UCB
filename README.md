@@ -1,20 +1,21 @@
-# latex-beamer-template
-Template for compiling slides in latex.
+# Modelo de Apresentação em Latex Beamer para PPGE-UCB
 
-This is a latex beamer template for compiling academic presentations. 
-The current colour theme matches University of Oxford colours, but these can be adjusted in the *.sty file. 
+Modelo de apresentação em slides Latex Beamer para compilar apresentações acadêmicas para o PPGE-UCB.
 
-This template is designed to be compiled in Overleaf but it can be compiled locally if the relevant packages are installed. 
+Este é um modelo de apresentação em Latex Beamer para criar apresentações acadêmicas, personalizado especificamente para o PPGE-UCB. O tema de cores e estilo podem ser facilmente ajustados no arquivo *.sty para corresponder às suas preferências ou à identidade visual de sua instituição.
 
-Wide and narrow templates are supported, and the template includes examples of figures, side-by-side figures and bullet points and tables. 
+Este modelo foi projetado para ser compilado no Overleaf, mas também pode ser compilado localmente se os pacotes relevantes estiverem instalados.
 
-## Usage
+Modelos mais largos e/ou estreitos são suportados, e o modelo inclui exemplos de figuras lado a lado, pontos de tópicos e tabelas.
 
-1. Download this repository as a *.zip file (Code > Download as .zip)
-2. In [Overleaf](https://www.overleaf.com/project) select New Project > Upload a project > Upload the repository zip file
-3. Enjoy making slides with latex! 
+Sinta-se a vontade para contribuir com o código-fonte e na formatação com base no Manual da UCB.
 
-## Examples
+# Uso
+Baixe este repositório como um arquivo *.zip (Code > Download as .zip)
+No Overleaf, selecione New Project > Upload a project > Faça o upload do arquivo zip do repositório
+Aproveite para criar slides em Latex para suas apresentações do PPGE-UCB!
+
+## Exemplos
 
 ![image](./example_images/title.png)
 
