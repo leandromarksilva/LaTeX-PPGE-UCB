@@ -1,0 +1,152 @@
+\documentclass[9pt, aspectratio=169]{beamer}
+
+\usecolortheme{Blue}
+\setbeamersize{text margin left=1.5cm, text margin right=1.5cm}
+\useoutertheme{smoothbars}
+\useinnertheme{rectangles}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+\usepackage[style=numeric]{biblatex}
+\usepackage{listings}
+\usepackage[defaultsans]{FiraSans}
+
+\addbibresource{references.bib}
+
+\setbeamertemplate{frametitle}{
+	\vspace{0.5cm}
+	\insertframetitle
+}
+
+
+\addbibresource{references.bib}
+
+\usepackage{datetime}
+\let\dateBrazilian\relax
+\newdateformat{dateBrazilian}{\THEDAY~de \monthname[\THEMONTH]~de \THEYEAR}
+\newcommand{\link}[2]{{\color{blue}\href{#2}{#1}}}
+
+\title{Apresentação de Teses e Disestaç\~{o}es}
+\subtitle{Uma Visão Geral}
+\author{Seu Nome}
+\date{\today}
+
+
+\setbeamertemplate{headline}{} % Remove the blocks from the top panel
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{document}
+	\begin{frame}[plain]
+		\begin{tikzpicture}[overlay,remember picture]
+			\node[anchor=north, inner sep=0.5cm] (logo) at (current page.north)
+			{\includegraphics[height=1cm,keepaspectratio]{assets/logo_UCB-PPGE.jpg}};
+		\end{tikzpicture}
+		\vspace{1cm} % Adjust the vertical space between the logo and the title
+		\begin{center}
+			\textbf{\Large{\inserttitle}}
+			
+			\vspace{0.8cm}
+			\large{\insertsubtitle}
+			
+			\vspace{1cm}
+			\normalsize{\insertauthor}
+			
+			\vspace{0.5cm}
+			Orientador: Prof. Dr. Nome do Orientador
+			
+			\vspace{1cm}
+			\small{\insertdate}
+			
+			\vspace{0.5cm}
+			\small{Brasília - DF}
+		\end{center}
+	\end{frame}
+	
+	%------------------------------------------------------------------------------------------------------
+	
+	\begin{frame}{Agenda}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Introdução}
+	% Add your content for the introduction section here
+	
+	\section{Conceitos Básicos}
+	% Add your content for the basic concepts section here
+	
+	\section{Modelos Econométricos}
+	% Add your content for the econometric models section here
+	
+	\section{Desenvolvimento}
+	% Add your content for the econometric methods section here
+	
+	\section{Resultados}
+	% Add your content for the results section here
+	
+	\section{Conclusão}
+	% Add your content for the conclusion section here
+	
+	%-------------%-------------------------%
+	
+	\begin{frame}{Introduç\~{a}o}
+		%\vspace{1cm}
+		% Your frame content here
+	\end{frame}
+	
+	\begin{frame}{Modelos Econométricos}
+		%\vspace{1cm}
+		% Your frame content here
+	\end{frame}
+	
+	\begin{frame}{Desenvolvimento}
+		%\vspace{1cm}
+		% Your frame content here
+	\end{frame}
+	
+	\begin{frame}{Resultados}
+		%\vspace{1cm}
+		% Your frame content here
+	\end{frame}
+	
+	\begin{frame}{Conclus\~{a}o}
+		%\vspace{1cm}
+		% Your frame content here
+	\end{frame}
+	
+	
+	\begin{frame}{Referências}
+		\printbibliography[heading=none]
+	\end{frame}
+	
+	\begin{frame}{Perguntas?}
+		\begin{tikzpicture}[overlay, remember picture]
+			\begin{scope}[opacity=0.7] % Set the opacity for the entire scope
+				\node[inner sep=0pt] at (current page.center) {
+					\includegraphics[width=\paperwidth, height=\paperheight]{assets/bsb_upscaling(2023).png} % Replace 'background_image.jpg' with your image file
+				};
+			\end{scope}
+		\end{tikzpicture}
+		
+		\vspace{-3cm} % Adjust vertical space
+		\centering
+		\Large{Obrigado pela sua atenção!}
+		
+		\vspace{6pt} % Adjust vertical space
+		
+		\normalsize{Sinta-se à vontade para fazer perguntas.}
+	\end{frame}
+	
+	
+\end{document}
