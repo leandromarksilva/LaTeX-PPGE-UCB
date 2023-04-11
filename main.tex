@@ -18,9 +18,12 @@
 \usepackage{amssymb}
 \usepackage{epstopdf}
 \usepackage{hyperref}
+\usepackage{csquotes}
 \usepackage[style=numeric]{biblatex}
 \usepackage{listings}
-\usepackage[defaultsans]{FiraSans}
+\usepackage{FiraSans}
+\renewcommand*\familydefault{\sfdefault}
+
 
 \addbibresource{references.bib}
 
@@ -103,17 +106,30 @@
 	\begin{frame}{Introduç\~{a}o}
 		%\vspace{1cm}
 		% Your frame content here
+		Aqui está um exemplo de citação do artigo de Smith e Jones \cite{Author1Title}:
+		\begin{quote}
+			``Este é um exemplo de citação do artigo de Smith e Jones.''
+		\end{quote}
 	\end{frame}
 	
 	\begin{frame}{Modelos Econométricos}
 		%\vspace{1cm}
 		% Your frame content here
+		Aqui está um exemplo de citação da dissertação de mestrado de Eduardo Mangeli \cite{Mangeli2016}:
+		\begin{quote}
+			``Este é um exemplo de citação da dissertação de mestrado de Eduardo Mangeli.''
+		\end{quote}
 	\end{frame}
 	
 	\begin{frame}{Desenvolvimento}
 		%\vspace{1cm}
 		% Your frame content here
+		Aqui está um exemplo de citação do livro de Bernard De Koven \cite{DeKoven2013}:
+		\begin{quote}
+			``Este é um exemplo de citação do livro de Bernard De Koven.''
+		\end{quote}
 	\end{frame}
+	
 	
 	\begin{frame}{Resultados}
 		%\vspace{1cm}
