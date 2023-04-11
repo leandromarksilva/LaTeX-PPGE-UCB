@@ -1,4 +1,4 @@
-# Modelo de Apresentação em Latex Beamer para PPGE-UCB
+# Modelo de Apresentação em LaTeX/Beamer para PPGE-UCB
 
 Modelo de apresentação em slides Latex Beamer para compilar apresentações acadêmicas para o PPGE-UCB.
 
