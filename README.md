@@ -11,9 +11,9 @@ Modelos mais largos e/ou estreitos são suportados, e o modelo inclui exemplos d
 Sinta-se a vontade para contribuir com o código-fonte e na formatação com base no Manual da UCB.
 
 # Uso
-Baixe este repositório como um arquivo *.zip (Code > Download as .zip)
-No Overleaf, selecione New Project > Upload a project > Faça o upload do arquivo zip do repositório
-Aproveite para criar slides em Latex para suas apresentações do PPGE-UCB!
+- Baixe este repositório como um arquivo *.zip (Code > Download as .zip)
+- No Overleaf, selecione New Project > Upload a project > Faça o upload do arquivo zip do repositório
+- Aproveite para criar slides em Latex para suas apresentações do PPGE-UCB!
 
 ## Exemplos
 
