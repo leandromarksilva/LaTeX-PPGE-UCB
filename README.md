@@ -17,16 +17,9 @@ Aproveite para criar slides em Latex para suas apresentações do PPGE-UCB!
 
 ## Exemplos
 
-![image](./example_images/title.png)
+![image](./example_images/Modelo_de_apresentao_do_PPGE_UCB_Página_1.png)
 
-![image](./example_images/overview.png)
+![image](./example_images/Modelo_de_apresentao_do_PPGE_UCB_Página_2.png)
 
-![image](./example_images/images_with_bullets.png)
+![image](./example_images/Modelo_de_apresentao_do_PPGE_UCB_Página_9.png)
 
-![image](./example_images/images.png)
-
-![image](./example_images/table.png)
-
-![image](./example_images/numbered_bullets.png)
-
-![image](./example_images/references.png)
